@@ -2,13 +2,12 @@
 
 **Universidad Técnica Estatal de Quevedo (UTEQ)**  
 **Facultad de Ciencias de la Computación — Carrera de Software**  
-**Asignatura:** Aplicaciones Distribuidas (ISR-701) — SPA 2026-2027  
+**Asignatura:** Aplicaciones Distribuidas 
 **Docente:** Dr. Gleiston Cicerón Guerrero Ulloa, PhD  
 **Paralelo:** Séptimo Nivel "A"  
 
-## Integrantes / Autor
-* [Apellidos y Nombres del Estudiante 1] - `[usuario_github_1]`
-* *(Si es grupal, descomentar y agregar integrantes)*
+## Integrantes 
+
 
 ---
 
@@ -22,7 +21,7 @@
 
 ---
 
-## Instrucciones de Compilación del Informe (Criterio de Piso P2)
+## Instrucciones de Compilación del Informe 
 
 Para regenerar el documento PDF a partir del código fuente LaTeX clonando este repositorio, asegúrese de cumplir con los siguientes requisitos:
 
@@ -47,8 +46,3 @@ pdflatex main.tex
 ```
 
 *(Alternativamente, si utiliza `latexmk`, puede ejecutar: `latexmk -pdf main.tex`)*
-
----
-
-## Instrucciones de Ejecución del Código (`src/`)
-*(Describir aquí los requisitos, versiones de lenguaje/runtime, Docker, comandos para levantar el entorno y reproducir las pruebas cuando la actividad incluya desarrollo práctico).*
