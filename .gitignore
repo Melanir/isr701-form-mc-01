@@ -1,0 +1,38 @@
+# Archivos auxiliares de compilación LaTeX (NO SUBIR)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+
+# NOTA IMPORTANTE DEL ENCUADRE ISR-701:
+# NO ignoramos *.pdf porque el encuadre exige subir el PDF compilado al repositorio 
+# cuando la actividad lo pida (Sección 6, Norma 1).
+
+# Entornos virtuales y dependencias (Python / Node / Java)
+venv/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+target/
+build/
+dist/
+
+# Archivos de sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

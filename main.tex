@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Codificación e idioma ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{csquotes}
+
+% --- Geometría y formato ---
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% --- Gráficos, tablas y código ---
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% --- Bibliografía: Estilo IEEE estricto con BibLaTeX (Norma 4 y Criterio P4) ---
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\addbibresource{referencias.bib}
+
+% --- Datos del Documento (Completar según la guía de la actividad) ---
+\title{\textbf{FORM-MC-01: Mapa conceptual colaborativo}\\[0.3cm]
+\large Universidad Técnica Estatal de Quevedo\\
+Facultad de Ciencias de la Computación -- Carrera de Software\\
+Aplicaciones Distribuidas (ISR-701) -- Séptimo Nivel ``A''}
+
+\author{[Nombre del Estudiante 1] \\ \texttt{[correo@uteq.edu.ec]}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% Escribir aquí un resumen propio una vez finalizado el trabajo.
+[Espacio en blanco para el resumen ejecutivo de la actividad.]
+\end{abstract}
+
+\section{Introducción y Fundamentación Conceptual (D2)}
+% Desarrollar aquí los conceptos con redacción propia y citas reales, por ejemplo: \cite{vansteen2023}.
+[Espacio en blanco para desarrollar la fundamentación conceptual de la unidad.]
+
+\section{Desarrollo Técnico y Evidencia (D3)}
+% Documentar aquí la implementación, arquitectura, configuración, código en src/ y datos en data/.
+[Espacio en blanco para documentar el desarrollo técnico y referenciar archivos del repositorio.]
+
+\section{Análisis Crítico y Resultados (D4)}
+% Interpretar mediciones, comparar alternativas (trade-offs), reconocer limitaciones.
+[Espacio en blanco para las tablas de mediciones, gráficas de figs/ y análisis crítico.]
+
+\section{Conclusiones}
+% Conclusiones cuantificables derivadas directamente de las pruebas realizadas.
+[Espacio en blanco para las conclusiones propias del trabajo.]
+
+% --- SECCIÓN OBLIGATORIA SEGÚN SECCIÓN 6.1 y 7.5 DEL ENCUADRE ---
+% Nota: La falta de esta declaración resta 0.3 puntos sobre 10.
+\section*{Declaración de Uso de Inteligencia Artificial}
+% Elegir Opción A o B según corresponda a tu trabajo real en esta actividad:
+
+% OPCIÓN A (Si NO se utilizó ninguna herramienta de IA):
+% El autor (o equipo) declara que en la elaboración de esta actividad no se utilizó ninguna herramienta de inteligencia artificial generativa ni de asistencia automatizada. Todo el contenido, código, datos y redacción son de autoría íntegramente propia.
+
+% OPCIÓN B (Si se utilizó IA únicamente como apoyo permitido):
+Para la realización de esta actividad se utilizó la herramienta [Nombre de la herramienta, ej. GitHub Copilot / ChatGPT / Gemini] (versión [Versión/Modelo]) únicamente como herramienta de apoyo para [especificar uso permitido: p. ej., revisión ortográfica / consulta de errores de compilación en LaTeX]. El resultado obtenido fue verificado mediante [explicar cómo se comprobó técnicamente, p. ej., compilación local en TeX Live y contraste con la documentación oficial]. Todo el análisis, diseño, código evaluable, mediciones y redacción técnica corresponden a la autoría propia del estudiante/equipo.
+
+% --- Impresión de Referencias (Estilo IEEE) ---
+\printbibliography[title={Referencias}]
+
+\end{document}
