@@ -1,50 +1,34 @@
 # FORM-MC-01 - Mapa conceptual colaborativo
 
-**Universidad Técnica Estatal de Quevedo (UTEQ)**  
-**Facultad de Ciencias de la Computación — Carrera de Software**  
-**Asignatura:** Aplicaciones Distribuidas 
+Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-701), Unidad 1. Universidad Técnica Estatal de Quevedo (UTEQ).
+
 **Docente:** Dr. Gleiston Cicerón Guerrero Ulloa, PhD  
-**Paralelo:** Séptimo Nivel "A"  
+**Paralelo:** Séptimo Nivel "A"
 
-## Integrantes 
-LOOR SUAREZ STEFFANNY DEL ROCIO
-MUÑOZ VERA MELANIE MICHELLE
-RIVAS PILOSO DAYVER YAHIR
+## Integrantes
 
----
+- LOOR SUAREZ STEFFANNY DEL ROCIO
+- MUÑOZ VERA MELANIE MICHELLE
+- RIVAS PILOSO DAYVER YAHIR
 
-## Estructura del Repositorio
-* `main.tex`: Archivo fuente principal del informe técnico en LaTeX.
-* `referencias.bib`: Base de datos bibliográfica en formato BibLaTeX (Estilo IEEE).
-* `src/`: Código fuente, scripts y archivos de configuración implementados.
-* `data/`: Datos crudos, registros (logs) y mediciones obtenidas en las pruebas.
-* `figs/`: Diagramas de arquitectura, gráficas y capturas de evidencia verificable.
-* `docs/`: Documentación adicional o el PDF compilado requerido por la guía.
+## Mapa conceptual
 
----
+Pendiente de incorporar el enlace al mapa conceptual del grupo.
 
-## Instrucciones de Compilación del Informe 
+## Documentación
 
-Para regenerar el documento PDF a partir del código fuente LaTeX clonando este repositorio, asegúrese de cumplir con los siguientes requisitos:
+La carpeta `docs/` reúne la documentación de la actividad. Las fuentes de la plantilla LaTeX se encuentran en [`docs/fuente/`](docs/fuente/):
 
-### 1. Compilador y Dependencias
-* **Distribución LaTeX:** TeX Live (2023 o superior) o MiKTeX actualizado.
-* **Compilador principal:** `pdflatex`
-* **Motor de bibliografía:** `biber` (requerido por `biblatex` con estilo `ieee`).
-* **Paquetes principales requeridos:** `babel` (spanish), `inputenc`, `fontenc`, `biblatex`, `csquotes`, `graphicx`, `booktabs`, `hyperref`, `listings`, `amsmath`, `geometry`.
+- [`main.tex`](docs/fuente/main.tex): plantilla del documento principal.
+- [`referencias.bib`](docs/fuente/referencias.bib): archivo de referencias bibliográficas.
 
-### 2. Archivo Principal
-* Archivo de entrada: `main.tex`
-* Archivo de referencias: `referencias.bib`
+El contenido académico y el PDF final están pendientes de elaboración por el grupo.
 
-### 3. Orden Exacto de Comandos
-Ejecute la siguiente secuencia desde la raíz del repositorio en su terminal:
+### Abrir y compilar en Overleaf
 
-```bash
-pdflatex main.tex
-biber main
-pdflatex main.tex
-pdflatex main.tex
-```
+1. Descargar `main.tex` y `referencias.bib` desde `docs/fuente/`.
+2. Crear un proyecto vacío en [Overleaf](https://www.overleaf.com/) y subir ambos archivos.
+3. Seleccionar `main.tex` como documento principal y **pdfLaTeX** como compilador.
+4. Pulsar **Recompile** para generar el PDF.
 
-*(Alternativamente, si utiliza `latexmk`, puede ejecutar: `latexmk -pdf main.tex`)*
+La plantilla utiliza `biblatex` con el estilo IEEE y el motor `biber`. Ambos archivos deben permanecer en la misma carpeta del proyecto.
