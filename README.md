@@ -7,7 +7,9 @@
 **Paralelo:** Séptimo Nivel "A"  
 
 ## Integrantes 
-
+LOOR SUAREZ STEFFANNY DEL ROCIO
+MUÑOZ VERA MELANIE MICHELLE
+RIVAS PILOSO DAYVER YAHIR
 
 ---
 
