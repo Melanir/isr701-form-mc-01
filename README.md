@@ -17,18 +17,7 @@ Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-70
 
 ## Documentación
 
-La carpeta `docs/` reúne la documentación de la actividad. Las fuentes de la plantilla LaTeX se encuentran en [`docs/fuente/`](docs/fuente/):
+La carpeta `docs/` reúne los archivos de la actividad:
 
-- [`main.tex`](docs/fuente/main.tex): plantilla del documento principal.
-- [`referencias.bib`](docs/fuente/referencias.bib): archivo de referencias bibliográficas.
-
-El contenido académico y el PDF final están pendientes de elaboración por el grupo.
-
-### Abrir y compilar en Overleaf
-
-1. Descargar `main.tex` y `referencias.bib` desde `docs/fuente/`.
-2. Crear un proyecto vacío en [Overleaf](https://www.overleaf.com/) y subir ambos archivos.
-3. Seleccionar `main.tex` como documento principal y **pdfLaTeX** como compilador.
-4. Pulsar **Recompile** para generar el PDF.
-
-La plantilla utiliza `biblatex` con el estilo IEEE y el motor `biber`. Ambos archivos deben permanecer en la misma carpeta del proyecto.
+- [`referencias.bib`](docs/referencias.bib): las cuatro fuentes bibliográficas utilizadas para el mapa conceptual.
+- PDF del mapa conceptual y archivo fuente editable: pendientes de incorporar por el grupo.
