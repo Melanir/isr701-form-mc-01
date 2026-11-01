@@ -19,5 +19,5 @@ Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-70
 
 La carpeta `docs/` reúne los archivos de la actividad:
 
-- [`referencias.bib`](docs/referencias.bib): las cuatro fuentes bibliográficas utilizadas para el mapa conceptual.
-- PDF del mapa conceptual y archivo fuente editable: pendientes de incorporar por el grupo.
+- [`referencias.bib`](docs/referencias.bib): referencias utilizadas
+- PDF del mapa conceptual.
