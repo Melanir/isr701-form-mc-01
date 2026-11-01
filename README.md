@@ -3,7 +3,7 @@
 Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-701), Unidad 1. Universidad Técnica Estatal de Quevedo (UTEQ).
 
 **Docente:** Dr. Gleiston Cicerón Guerrero Ulloa, PhD  
-**Paralelo:** Séptimo Nivel "A"
+**Paralelo:** Séptimo Nivel "B"
 
 ## Integrantes
 
