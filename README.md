@@ -13,7 +13,7 @@ Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-70
 
 ## Mapa conceptual
 
-Pendiente de incorporar el enlace al mapa conceptual del grupo.
+**[Ver mapa conceptual en Miro](https://miro.com/welcomeonboard/V1ZOWHZScnNyTVFIbWF0WVFDaFRVaUlyY3N2b0I5ck5sMmorNEZzTUVEQldSMnpYeWJKRndOZnpYMkZYM3pkeXRmZ0RFY0hzd3hIRExIeWs1OFFNM05MQ2VNS3lldEJnNVM5dUJud3dEMTdSb0V5UEdSaGgwNjQ1QmIvaVMybDVBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=15173502508)**
 
 ## Documentación
 
