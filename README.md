@@ -20,4 +20,6 @@ Mapa conceptual colaborativo de la Semana 1 de Aplicaciones Distribuidas (ISR-70
 La carpeta `docs/` reúne los archivos de la actividad:
 
 - [`referencias.bib`](docs/referencias.bib): referencias utilizadas
-- PDF del mapa conceptual.
+- [PDF del mapa conceptual](docs/FORM-MC-01%20%282%29.pdf).
+
+En el PDF, la rama de CAP distingue dos prioridades durante una partición de red. **CP** conserva la consistencia linealizable, por lo que algunas solicitudes pueden esperar o rechazarse. **AP** mantiene la disponibilidad, con el riesgo de responder con datos desactualizados.
